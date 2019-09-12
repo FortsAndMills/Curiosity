@@ -13,3 +13,7 @@
 - [x] launch ML-agents
 - [ ] test (adapt?) [my RL library](https://github.com/FortsAndMills/Learning-Reinforcement-Learning) on ML-agents environments
 - [ ] reproduce curiosity on Pyramids problem
+
+**Looking around:**
+- [Obstacle Tower](https://github.com/Unity-Technologies/obstacle-tower-source)
+- [Gym Retro](https://github.com/openai/retro) finally supports Windows (may be it is time for another attempt to install it...)
