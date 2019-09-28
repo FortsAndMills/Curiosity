@@ -3,8 +3,13 @@
 * **Central article:** [Curiosity-driven Exploration by Self-supervised Prediction](https://pathak22.github.io/noreward-rl/resources/icml17.pdf)
   + played Mario level 1 without any reward; generalized faster to level 2
   + solved "noisy TV problem"
+* **Large-scale study** [Large-Scale Study of Curiosity-Driven Learning](https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf)
+  + more details, options and computational resources
 * **Unity experiment:** [Solving sparse-reward tasks with Curiosity](https://blogs.unity3d.com/ru/2018/06/26/solving-sparse-reward-tasks-with-curiosity/)
   + introduced Pyramids envrionment to challenge the approach: PPO does not work, PPO + Curiosity works
+* **Google strange idea:** [Episodic Curiosity through Reachability](https://ai.googleblog.com/2018/10/curiosity-and-procrastination-in.html)
+  + Google discovered there is a big huge problem in curiosity, which leads to *procrastination* ;) .
+  - proposed their own curiosity model, but the idea seems a bit weird
   
 **PLANNED EXPERIMENTS:**
 - [x] test curiosity on Mountain Car problem
@@ -12,6 +17,7 @@
 - [ ] launch Mario environment
 - [ ] reproduce curiosity on Mario
 - [x] launch ML-agents
+- [ ] relaunch ML-agents after system reset :{
 - [ ] test (adapt?) [my RL library](https://github.com/FortsAndMills/Learning-Reinforcement-Learning) on ML-agents environments
 - [ ] reproduce curiosity on Pyramids problem
 - [ ] test hypothesis that curiosity network can be used as world model
