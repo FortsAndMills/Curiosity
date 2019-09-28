@@ -14,6 +14,8 @@
 - [x] launch ML-agents
 - [ ] test (adapt?) [my RL library](https://github.com/FortsAndMills/Learning-Reinforcement-Learning) on ML-agents environments
 - [ ] reproduce curiosity on Pyramids problem
+- [ ] test hypothesis that curiosity network can be used as world model
+- [ ] test hypothesis that network predicting loss of curiosity network can be utilized as policy
 
 **Looking around:**
 - [Obstacle Tower](https://github.com/Unity-Technologies/obstacle-tower-source)
