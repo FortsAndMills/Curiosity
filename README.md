@@ -42,3 +42,5 @@ Basic version of curiosity is added to [LRL library](https://github.com/FortsAnd
   (-) was not really stable
   
   (-) inverse model by some reason required thousands of iterations to converge, although classification task is really simple (4 features to 3 classes with easy dependency)
+  
+  **01/10/19/** Failed to install Sonic; failed to install Mario. No games - no pain - no gain.
