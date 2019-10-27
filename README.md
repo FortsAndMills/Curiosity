@@ -23,7 +23,7 @@
 
 **Looking around:**
 - [Obstacle Tower](https://github.com/Unity-Technologies/obstacle-tower-source)
-- [Gym Retro](https://github.com/openai/retro) finally supports Windows (may be it is time for another attempt to install it...)
+- Succesully installed [Gym Retro](https://github.com/openai/retro), but it needs ROMs of the games.
 
 ----------------------------------------------------------------------
 
@@ -44,6 +44,14 @@ Basic version of curiosity is added to [LRL library](https://github.com/FortsAnd
   **01/10/19.** Failed to install Sonic; failed to install Mario. No games - no pain - no gain.
   
   **07/10/19.** Mario is installed! Hurey! Some hands on, still with just inverse model...
+  
+  **27/10/09.** [See Mario.ipynb](https://github.com/FortsAndMills/Curiosity/blob/master/Mario.ipynb)
+  
+  Baseline results with PPO on Mario and playing with parameters. It quickly learns to go to the right, but still fails to stably jump over enemies. After 60 hours of training, average reward stops growing, but Mario still can touch enemies, misses a lot of bonuses and has problems with jumping over first pitfall. The second one is even larger and is his current doom.
+  
+  There is some strange preprocessing of environment where Mario is almost lost on the screen, but it is taken from original article. Also, experiments with network working with large-scale image did not lead to better results either. Inverse model has serious problems with learning, while DQN also has some issues. Nevertheless, there are some articles about DQN on Mario...
+  
+  ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_ppo_rewards.png) ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_ppo.gif)
   
   ----------------------------------------------------------------
   
