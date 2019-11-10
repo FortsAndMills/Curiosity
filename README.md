@@ -53,6 +53,8 @@ Basic version of curiosity is added to [LRL library](https://github.com/FortsAnd
   
   ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_ppo_rewards.png) ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_ppo.gif)
   
+  **10/11/19** Refactoring is coming to its end. We are finally moving to [Lego Reinforcement Learning](https://github.com/FortsAndMills/Lego-Reinforcement-Learning)
+  
   ----------------------------------------------------------------
   
   ## Ideas:
