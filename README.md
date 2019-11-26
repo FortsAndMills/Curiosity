@@ -10,6 +10,11 @@
 * **Google strange idea:** [Episodic Curiosity through Reachability](https://ai.googleblog.com/2018/10/curiosity-and-procrastination-in.html)
   + Google discovered there is a big huge problem in curiosity, which leads to *procrastination* ;) .
   - proposed their own curiosity model, but the idea seems a bit weird
+* **Flow-based ICM** [Exploration via Flow-based Intrinsic Rewards](https://openreview.net/pdf?id=SkxzSgStPS)
+  + suggests paying attention to the motion in the picture (is it always relevant?). Comparable to ICM.
+* **Random Network Distillation** [Exploration by Random Network Distillation](https://arxiv.org/pdf/1810.12894.pdf)
+  + solves Montezuma's Revenge!
+  - is not reproduced on Mario (see plots in previous paper...)
   
 **PLANNED EXPERIMENTS:**
 - [x] test curiosity on Mountain Car problem
