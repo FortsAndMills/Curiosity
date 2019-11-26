@@ -55,6 +55,8 @@ Basic version of curiosity is added to [LRL library](https://github.com/FortsAnd
   
   **10/11/19** Refactoring is coming to its end. We are finally moving to [Lego Reinforcement Learning](https://github.com/FortsAndMills/Lego-Reinforcement-Learning)
   
+  **26/11/19** Refactoring pt.II has finished. Rainbow DQN and Actor-Critic are restored. Self-supervision/PPO/RNN in plans...
+  
   ----------------------------------------------------------------
   
   ## Ideas:
