@@ -23,12 +23,8 @@
 - [ ] reproduce curiosity on Mario
 - [x] launch ML-agents
 - [ ] relaunch ML-agents after system reset :{
-- [ ] test (adapt?) [my RL library](https://github.com/FortsAndMills/Learning-Reinforcement-Learning) on ML-agents environments
+- [ ] test (adapt?) code for ML-agents environments
 - [ ] reproduce curiosity on Pyramids problem
-
-**Looking around:**
-- [Obstacle Tower](https://github.com/Unity-Technologies/obstacle-tower-source)
-- Succesully installed [Gym Retro](https://github.com/openai/retro), but it needs ROMs of the games.
 
 ----------------------------------------------------------------------
 
