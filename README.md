@@ -63,3 +63,9 @@ Basic version of curiosity is added to [LRL library](https://github.com/FortsAnd
   Baseline using reward taken from [this github](https://github.com/uvipen/Super-mario-bros-A3C-pytorch); it motivates agent to move further in the level and ignore monets / enemies. This allows to set gamma=0.9. Rainbow DQN turned out to be extremely slow, so only 2000+ games during 84 hours of training. Learned to pass first level and got stuck in the tunnel on the second level.
   
 ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_rainbow_cr.png) ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_rainbow_cr%20(iter.%20291000).gif)
+
+**07/12/19.** [See Mario A2C.ipynb](https://github.com/FortsAndMills/Curiosity/blob/master/%5BLegoRL%5D%20Mario%20A2C.ipynb)
+  
+Similar results with A2C, 50+ hours.
+  
+![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_a2c_cr.png)
