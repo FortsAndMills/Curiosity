@@ -10,13 +10,13 @@
   
 **PLANNED EXPERIMENTS:**
 - [x] test curiosity on Mountain Car problem
-- [ ] check different variants of curiosity on Mountain car; check with different algorithms and possibly tune parameters
+- [x] check different variants of curiosity on Mountain car; check with different algorithms and possibly tune parameters
 - [x] launch Mario environment
 - [ ] reproduce curiosity on Mario
 - [x] launch ML-agents
 - [x] relaunch ML-agents after system reset :{
 - [x] test (adapt?) code for ML-agents environments
-- [ ] reproduce curiosity on Pyramids problem
+- [x] reproduce curiosity on Pyramids problem
 
 ----------------------------------------------------------------------
 
@@ -61,3 +61,9 @@ Basic version of curiosity is added to [LRL library](https://github.com/FortsAnd
 Similar results with A2C, 50+ hours.
   
 ![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Mario_a2c_cr.png)
+
+**19/02/20** [See Pyramids A2C ICM](https://github.com/FortsAndMills/Curiosity/blob/master/%5BLegoRL%5D%20Pyramids%20A2C%20ICM.ipynb)
+
+Switched to Unity Pyramids task. Succeded with A2C (16M frames, 19K episodes, 26 hours)
+
+![](https://github.com/FortsAndMills/Curiosity/blob/master/results/Pyramids_A2C_ICM.png)
